@@ -5,7 +5,7 @@ public class ContaBanco {
     private String NomeCliente;
     private double Saldo;
 
-    public ContaBanco(String Agencia, String Banco, String NomeCliente, double Saldo) {
+    public ContaBanco(String Agencia, String Numero, String NomeCliente, double Saldo) {
         this.Numero = Numero;
         this.Agencia = Agencia;
         this.NomeCliente = NomeCliente;
@@ -44,7 +44,7 @@ public class ContaBanco {
     public void setSaldo(double Saldo) {
         this.Saldo = Saldo;
     }
-    
+
 
     
 }
